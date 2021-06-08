@@ -1,0 +1,162 @@
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/text.css">
+  <link rel="stylesheet" href="css/btn.css">
+  <link rel="stylesheet" href="css/form.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/modal.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/breacpoints.css">
+  <title>Youniverse</title>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+  <header>
+    <div class="container-fluid">
+      <div class="row d-flex align-items-center">
+        <a href="index.html" class="back p-2"></a>
+        <div href="#" class="logo p-2 flex-grow-1"></div>
+        <!-- <a href="tel:5757" class="phone p-2"></a> -->
+        <a href="https://t.me/Tvoi1_bot" class="tg p-2"></a>
+        <a href="#" class="">
+          <div class="account"></div>
+        </a>
+      </div>
+    </div>
+  </header>
+  
+
+  <section id="content" class="content wrapper flex-grow-1 d-flex align-items-center">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-6">
+          <h1>Оставь отзыв</h1>
+          <h6>Нам очень важно твое мнение о новом KENT SuperSlims</h6>
+          <form class="mt-5">
+
+            <div class="form-group text-center mt-4">
+              <label>Понравились ли вам сигареты KENT SS?</label>
+              <div class="w100"></div>
+              <div class="form-check form-check-inline mt-3">
+                <input class="form-check-input" type="radio" name="01_quest" id="01_quest" value="option1">
+                <label class="form-check-label" for="01_quest">Да</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="01_quest" id="01_quest" value="option2">
+                <label class="form-check-label" for="01_quest">Нет</label>
+              </div>
+            </div>
+
+            <div class="form-group text-center mt-4">
+              <label>Понравился ли вам вкус капсулы KENT SS?</label>
+              <div class="w100"></div>
+              <div class="form-check form-check-inline mt-3">
+                <input class="form-check-input" type="radio" name="02_quest" id="02_quest" value="option1">
+                <label class="form-check-label" for="01_quest">Да</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="02_quest" id="02_quest" value="option2">
+                <label class="form-check-label" for="02_quest">Нет</label>
+              </div>
+            </div>
+
+            <div class="form-group text-center mt-4">
+              <label>Порекомендуете ли вы KENT SS своим знакомым 21+?</label>
+              <div class="w100"></div>
+              <div class="form-check form-check-inline mt-3">
+                <input class="form-check-input" type="radio" name="03_quest" id="03_quest" value="option1">
+                <label class="form-check-label" for="03_quest">Да</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="03_quest" id="03_quest" value="option2">
+                <label class="form-check-label" for="03_quest">Нет</label>
+              </div>
+            </div>
+
+            <div class="form-group text-center mt-5">
+              <label>Добавь свой отзыв</label>
+              <textarea id="comment" type="text" class="form-control text-center" placeholder="...." rows="10"></textarea>
+            </div>
+
+            <a href="#" class="btn btn-major mt-4" data-toggle="modal" data-target="#error">Оставить отзыв</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div class="row">
+            <p class="info">
+              Информация, отображаемая на настоящей Странице предназначена только для зарегистрированного участника маркетинговой активности и не подлежит копированию, передаче третьим лицам.
+            </p>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="row d-flex align-items-center">
+            <p class="warning d-flex align-items-center justify-content-center">
+              Защитите детей от табачного дыма
+            </p>
+            <img src="img/age21.png" alt="21+">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div id="error" class="modal fade bat-style" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1>Ошибка</h1>
+          <h6>Неверно введен код из СМС</h6>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <a href="#" class="btn btn-major" data-dismiss="modal" data-toggle="modal" data-target="#success">Назад</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="success" class="modal fade bat-style" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1>Спасибо за отзыв</h1>
+          <h6>Ждем твоего возвращения!</h6>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <a href="account.html" class="btn btn-major">Вернуться в меню</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Optional JavaScript -->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/jquery.paroller.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/imask.js"></script>
+
+  <script src="js/script.js"></script>
+  <script>
+    $("[data-paroller-factor]").paroller();
+  </script>
+</body>
+
+</html>

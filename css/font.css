@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: MuseoSansCyrl;
+  src: url(src/MuseoSansCyrl-500.woff2) format('woff2');
+  font-weight: 500;
+  font-style: normal
+}
+
+@font-face {
+  font-family: MuseoSansCyrl;
+  src: url(src/MuseoSansCyrl-700.woff2) format('woff2');
+  font-weight: 700;
+  font-style: medium
+}
+
+@font-face {
+  font-family: MuseoSansCyrl;
+  src: url(src/MuseoSansCyrl-900.woff2) format('woff2');
+  font-weight: 900;
+  font-style: bold
+}
+
+@font-face {
+  font-family: DINCondensed-Bold;
+  src: url(src/DINPro-CondensedBold.woff)
+}
+
+body {
+  font-family: 'MuseoSansCyrl', sans-serif;
+}

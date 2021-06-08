@@ -1,0 +1,100 @@
+/* Modal style  */
+.bat-style {
+  text-align: center;
+}
+
+.bat-style h1 {
+ margin: 0;
+}
+
+.bat-style p {
+  line-height: calc(16px * 1.2);
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+/* Modal table style */
+.bat-style .modal-body {
+  font-weight: 500;
+  font-size: 14px;
+  color: #454545;
+  text-align: left;
+}
+
+.bat-style .list {
+  max-height: 60vh;
+  width: 100%;
+  overflow-y: visible;
+  overflow-x: hidden;
+}
+
+.bat-style .name {font-weight: 700; font-size: 18px; color: #262626; text-align: left; margin-top: 0}
+.bat-style .tel {font-weight: 500; font-size: 14px; color: #898989; text-align: left; margin-top: 4px}
+.bat-style .money {font-weight: 700; font-size: 18px; color: #990040; text-align: right; margin-top: 0}
+.bat-style .data {font-weight: 500; font-size: 14px; color: #898989; text-align: right; margin-top: 4px}
+.bat-style .code {font-weight: 700; font-size: 18px; color: #262626; text-align: left; margin-top: 10px}
+
+
+
+/* -----------------  Modal  ----------------- */
+
+.modal-content {
+  border: none;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.modal-body {
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+/* Modal backdrop style  */
+.modal-backdrop.fade {
+  opacity: 1;
+  backdrop-filter: saturate(100%) blur(0px);
+ -webkit-backdrop-filter: saturate(100%) blur(0px);
+  background-color: rgba(0, 0, 0, 0);
+  transition: .3s ease;
+}
+
+.modal-backdrop.show {
+  opacity: 1;
+  backdrop-filter: saturate(180%) blur(8px);
+ -webkit-backdrop-filter: saturate(180%) blur(8px);
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: .3s ease;
+}
+
+/* Modal mobile style  */
+@media screen and (max-width: 576px) {
+  .modal-content {
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    width: 100vw;
+  }
+
+  .modal-dialog {
+    position: fixed;
+    margin: 0;
+    bottom: 0;
+  }
+
+  .modal.fade .modal-dialog {
+   -webkit-transform: translate(0, 100%) scale(.9);
+    transform: translate(0, 100%) scale(.9);
+    transition: all .5s ease;
+  }
+
+  .modal.show .modal-dialog {
+   -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    transition: all .5s ease;
+  }
+
+  .modal.fade:not(.show) {
+    opacity: 1;
+    transition: all .5s ease;
+  }
+}

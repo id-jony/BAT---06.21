@@ -1,0 +1,87 @@
+/* Header style  */
+header {
+  background: #FFFFFF;
+  box-shadow: 0 16px 24px 0 rgba(34, 0, 54, 0.24);
+  height: 64px;
+  padding-top: 20px;
+  z-index: 2;
+  position: static;
+}
+
+header .logo {
+  background-image: url(../img/logo.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 21px;
+  width: 113px;
+  margin-top: -4px;
+}
+
+header .back {
+  background-image: url(../img/icons/back.svg);
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  margin-top: 3px;
+  margin-left: 24px;
+  transition: .15s;
+}
+
+header .back:hover {
+  opacity: .7;
+  transition: .15s;
+}
+
+header .phone {
+  background-image: url(../img/icons/phone.svg);
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 24px;
+  margin-right: 16px;
+  transition: .15s;
+}
+
+header .phone:hover {
+  opacity: .7;
+  transition: .15s;
+}
+
+header .account {
+  background-image: url(../img/icons/account.svg);
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 24px;
+  margin-right: 24px;
+}
+
+header .account_bg {
+  box-sizing: content-box;
+  height: 0;
+  width: 70px;
+  border-bottom: 64px solid #6800A3;
+  border-left: 24px solid transparent;
+}
+
+header .account_bg:hover {
+  border-bottom: 64px solid #7a13b4;
+  transition: .15s;
+}
+
+header .tg {
+  background-image: url(../img/icons/tg.svg);
+  background-repeat: no-repeat;
+  height: 28px;
+  width: 28px;
+  margin-right: 24px;
+}
+
+header .tg:hover{
+  opacity: .8;
+}
+
+@media screen and (max-width: 576px) {
+  header .logo {
+    background-position: center;
+    margin-left: 0;
+  }
+}

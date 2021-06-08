@@ -1,0 +1,110 @@
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/text.css">
+  <link rel="stylesheet" href="css/btn.css">
+  <link rel="stylesheet" href="css/form.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/modal.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/breacpoints.css">
+  <link rel="stylesheet" href="css/bg.css">
+  <title>Youniverse</title>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+  <header>
+    <div class="container-fluid">
+      <div class="row d-flex align-items-center">
+        <a href="index.html" class="back p-2"></a>
+        <div href="#" class="logo p-2 flex-grow-1"></div>
+        <!-- <a href="tel:5757" class="phone p-2"></a> -->
+        <a href="#" class="">
+          <div class="account"></div>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <section id="content" class="content wrapper flex-grow-1 d-flex align-items-center">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-lg-6">
+          <h1 class="white-bg">Мы отправили тебе</br>СМС с кодом</h1>
+          <form class="mt-5">
+            <div class="form-group text-center">
+              <label>Введи код</label>
+              <input pattern="[0-9]*" ype="text" id="sms" class="form-control text-center" placeholder="XXXX">
+            </div>
+            <div class="new_sms">
+              <p>Не получили код?</p>
+              <p><a class="text_link" href="#">Отправить</a>
+                повторно через …55 сек.</p>
+            </div>
+            <a href="#" class="btn btn-major mt-4" data-toggle="modal" data-target="#error">Готово</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div class="row">
+            <p class="info">
+              К регистрации на Странице не допускаются: Работники ТОО «БАТ КТ» и лица, привлеченные сторонними компаниями для оказания услуг ТОО «БАТ КТ», Бизнес-Партнеры ТОО «БАТ КТ» (представители розничных торговых точек).
+            </p>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="row d-flex align-items-center">
+            <p class="warning d-flex align-items-center justify-content-center">
+              Защитите детей от табачного дыма
+            </p>
+            <img src="img/age21.png" alt="21+">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <div id="error" class="modal fade bat-style" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1>Ошибка</h1>
+          <h6>Неверно введен код из СМС</h6>
+        </div>
+        <div class="modal-body">
+        </div>
+        <div class="modal-footer">
+          <a href="account.html" class="btn btn-major">Назад</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg l-t"></div>
+  <div class="bg r-t"></div>
+  <!-- Optional JavaScript -->
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/jquery.paroller.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/imask.js"></script>
+
+  <script src="js/script.js"></script>
+  <script>
+    $("[data-paroller-factor]").paroller();
+  </script>
+</body>
+
+</html>

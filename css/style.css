@@ -1,0 +1,542 @@
+body {
+  background-color: #0F2B63;
+}
+
+.polygon {
+  background: #6720A3;
+  clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
+}
+
+.rule {
+  background-image: url(../img/crystal_bg.jpg);
+  background-position: top;
+  background-size: contain;
+  clip-path: polygon(0 24px, 100% 0, 100% 100%, 0% 100%);
+  padding: 32px 0;
+  z-index: 5;
+  width: 100%;
+}
+
+.index h2 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #6800A3;
+  text-align: center;
+  line-height: 28px;
+}
+
+/* REVIEW: PROFILE CUSTOM STYLE  */
+.ac_info {
+  background-image: linear-gradient(180deg, #DF005E 4%, #990040 100%);
+  border-radius: 8px;
+  padding: 16px;
+  width: 100%;
+  margin-top: 24px;
+  margin-bottom: -16px;
+}
+
+.ac_info .num {
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 40px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.ac_info span {
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 16px;
+}
+
+.index h2 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #6800A3;
+  text-align: center;
+  line-height: 28px;
+}
+
+/* REVIEW: GAME CUSTOM STYLE  */
+.game {
+  background: #6720A3;
+}
+
+.exchange {
+  background-image: linear-gradient(180deg, #D23A5D -20%, #6720A3 15%) !important;
+}
+
+.game img {
+  width: 250px;
+  position: absolute;
+  z-index: 1037;
+  margin-top: -27px;
+  margin-left: calc(50vw - 150px);
+}
+
+.game_img {
+  background-image: url(../img/game_img.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  height: 450px;
+  z-index: 9;
+  margin: 0 -15px;
+}
+
+.rule span {
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFF;
+  margin-top: 16px;
+  display: block;
+  text-align: center;
+}
+
+/* REVIEW: ACCOUNT CUSTOM STYLE  */
+
+.account_img {
+  background-image: url(../img/banner_img.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  height: 450px;
+  z-index: 9;
+  margin: 0 -15px;
+  margin-bottom: -60px;
+}
+
+#content .account {
+    background: #6720A3;
+  }
+
+  #content {
+      z-index: 2;
+    }
+
+.account .item {
+    width: 100%;
+  }
+
+.account .carousel {
+  margin-top: 0;
+}
+
+.account .item {
+  border-radius: 8px;
+  /* background: #000; */
+  height: 200px;
+}
+
+
+.account .owl-item:not(.center) {
+  opacity: 1;
+  transition: .5s;
+}
+
+.account .owl-item {
+  opacity: 1;
+  transition: .5s;
+}
+
+.banner {
+  transform: skew(0, -3deg);
+  background-color: #6720A3;
+  border-radius: 8px;
+  padding: 24px;
+  background-image: url(../img/banner_img.jpg);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  box-shadow: 0 20px 24px -8px rgb(18, 0, 29, .6);
+  z-index: 6;
+  margin-top: 50px;
+}
+
+.banner .crystal_01 {
+  background-image: url(../img/crystal_02.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: -20px;
+  bottom: 30px;
+}
+
+.banner .crystal_02 {
+  background-image: url(../img/crystal_01.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 110px;
+  height: 80px;
+  position: absolute;
+  right: 0;
+  top: -25px;
+}
+
+.banner h1 {
+  font-weight: 900;
+  font-size: 28px;
+  color: #FFFFFF;
+  letter-spacing: 0.35px;
+  line-height: 32px;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 24px 0 0 0;
+  transform: skew(0, 3deg);
+}
+
+.banner h2 {
+  font-weight: 700;
+  font-size: 16px;
+  color: #FFFFFF;
+  line-height: 20px;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 16px 0;
+  transform: skew(0, 3deg);
+}
+
+.btn_bonus {
+  background-image: url(../img/money.png), linear-gradient(180deg, #DF005E 4%, #990040 100%);
+  background-size: 200%;
+  border-radius: 8px;
+  background-position: 51% 30%;
+  padding: 32px 24px 24px 24px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #FFF;
+  text-align: center;
+  line-height: 26px;
+  text-decoration: none;
+  float: left;
+  transition: .3s;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+
+.btn_bonus span {
+  font-weight: 500;
+  font-size: 14px;
+  color: #FFF;
+  text-align: center;
+  line-height: 16px;
+  text-decoration: none;
+  width: 100%;
+  float: left;
+  margin-top: 16px;
+  transition: .3s;
+}
+
+.btn_bonus:hover {
+  color: #FFF;
+  background-image: url(../img/money.png), linear-gradient(180deg, #e82779 4%, #ac1052 100%);
+  transition: .3s;
+}
+
+.cards {
+  background: #FFFFFF;
+  border-radius: 8px;
+  padding: 16px;
+  width: 100%;
+  display: block;
+  font-weight: 900;
+  font-size: 16px;
+  color: #512280;
+  text-align: center;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  float: left;
+  transition: .3s;
+}
+
+.hovers:hover {
+  transform: scale(1.05);
+  transition: .3s;
+  box-shadow: 0 8px 16px -4px #3B005C, 0 -8px 16px -4px #A455D1;
+  background-position: 51% 10%;
+}
+
+.cards p {
+  font-weight: 900 !important;
+  font-size: 16px !important;
+  color: #512280 !important;
+  text-align: center;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.cards img {
+  height: 70px;
+  margin-bottom: 8px;
+  margin: 0 auto;
+}
+
+.cards span {
+  font-weight: 500;
+  font-size: 12px;
+  color: #000000;
+  text-align: center;
+  text-transform: none;
+  line-height: 14px;
+  margin-top: 4px;
+}
+
+.carusel_banner {
+  width: 100%;
+  float: left;
+  background-color: #000;
+  display: block;
+  border-radius: 8px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 24px;
+}
+
+.carousel h5 {
+  font-weight: 900;
+  font-size: 24px;
+  color: #FFFFFF;
+  line-height: 28px;
+  text-shadow: 0 1px 1px #561762;
+  text-align: left;
+  margin: 18px 8px 8px 8px;
+}
+
+.carousel h6 {
+  font-weight: 500;
+  font-size: 14px;
+  color: #FFFFFF;
+  line-height: 16px;
+  text-align: left;
+  margin: 8px 8px 18px 8px;
+}
+
+.account .owl-dots {
+  display: none;
+}
+
+.question {
+  font-weight: 700;
+  line-height: 20px;
+  font-size: 16px;
+  color: #262626;
+  float: left;
+}
+
+.answer {
+  font-weight: 500;
+  font-size: 16px;
+  color: #262626;
+  line-height: 20px;
+  display: block;
+  padding: 8px 0 16px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #CCCCCC;
+  float: left;
+}
+
+/* REVIEW: Share custom style  */
+
+.share_img {
+  background-image: url(../img/share_img.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  width: 100%;
+  z-index: 10;
+  height: 350px;
+}
+
+.rule p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #DCBAF0;
+  text-align: center;
+  line-height: 19px;
+  margin-top: 16px;
+  padding: 0 16px;
+}
+
+.rule .small {
+  font-size: 14px;
+  font-style: italic;
+  color: #fff;
+  text-align: center;
+  line-height: 19px;
+  width: 100%;
+}
+
+.rule_lg p {
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+  line-height: 19px;
+  margin-top: 16px;
+  text-align: left;
+}
+
+.rule_lg .small {
+  font-weight: 500;
+  font-size: 14px;
+  color: #DCBAF0;
+  font-style: italic;
+  line-height: 19px;
+  margin-top: 16px;
+  text-align: left;
+}
+
+/* Content style  */
+.new_sms {
+  margin-bottom: 30px;
+}
+
+.new_sms p {
+  font-size: 16px;
+  color: #fff;
+}
+
+/* Carusel style  */
+.cat h6 {
+  font-weight: 700;
+  font-size: 14px;
+  color: #000;
+  letter-spacing: 0;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.cat h1 {
+  font-weight: 900;
+  font-size: 19px;
+  color: #6800A3;
+  text-align: center;
+  line-height: 24px;
+  margin-top: -5px;
+  text-transform: uppercase;
+}
+
+.cat h2 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #6800A3;
+  text-align: center;
+  line-height: 28px;
+  margin: 0;
+}
+
+.cat h3 {
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
+  line-height: 21px;
+  margin: 0;
+  text-transform: none;
+  padding-bottom: 32px;
+}
+
+.carousel {
+  margin-top: 30px;
+}
+
+.owl-dots {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.owl-dots .owl-dot span {
+  width: 8px;
+  height: 8px;
+  margin: 5px;
+  background: #93D3FF;
+  display: block;
+  transition: opacity 200ms ease;
+  border-radius: 30px;
+}
+
+.owl-dots .owl-dot.active span, .owl-dots .owl-dot:hover span {
+  background: #022F6E;
+}
+
+.pack {
+  height: 295px;
+  margin: 0 auto;
+  display: block;
+}
+
+.packn {
+  height: 279px;
+  margin: 0 auto;
+  display: block;
+}
+
+.owl-item:not(.center) {
+  opacity: 0;
+  transition: .5s;
+}
+
+.owl-item {
+  opacity: 1;
+  transition: .5s;
+}
+
+.item {
+  width: 350px;
+}
+
+.item img {
+  margin-left: -5px;
+}
+
+.item p {
+  font-weight: 900;
+  font-size: 14px;
+  color: #212121;
+  text-align: center;
+  line-height: 18px;
+}
+
+.item span {
+  font-weight: 700;
+  font-size: 12px;
+  color: #212121;
+  text-align: center;
+  line-height: 18px;
+  justify-content: center !important;
+  display: flex;
+}
+
+/* Social style  */
+.ya-share2__container_size_m .ya-share2__badge .ya-share2__icon {
+  height: 48px !important;
+  width: 48px !important;
+  background-size: 48px 48px !important;
+}
+
+.ya-share2__list.ya-share2__list_direction_horizontal>.ya-share2__item {
+  margin: 2px 10px 0 0 !important;
+}
+
+/* .ya-share2__item_service_vkontakte .ya-share2__badge, .ya-share2__item_service_vkontakte .ya-share2__mobile-popup-badge {
+box-shadow: 0 3px 0 0 #21548e, 0 4px 0 0 #234a75, 0 5px 2px -1px #052952, 0 6px 3px -1px rgba(0, 87, 137, 0.40), 0 13px 6px -4px rgba(4, 86, 133, 0.40);
+}
+.ya-share2__item_service_facebook .ya-share2__badge, .ya-share2__item_service_facebook .ya-share2__mobile-popup-badge {
+box-shadow: 0 3px 0 0 #153e6b, 0 4px 0 0 #183657, 0 5px 2px -1px #052952, 0 6px 3px -1px rgba(0, 87, 137, 0.40), 0 13px 6px -4px rgba(4, 86, 133, 0.40);
+}
+.ya-share2__item_service_odnoklassniki .ya-share2__badge, .ya-share2__item_service_odnoklassniki .ya-share2__mobile-popup-badge {
+box-shadow: 0 3px 0 0 #a7501f, 0 4px 0 0 #954315,  0 6px 3px -1px rgba(136, 89, 0, 0.75), 0 13px 6px -4px rgba(203, 112, 23, 0.58);
+}
+.ya-share2__item_service_whatsapp .ya-share2__badge, .ya-share2__item_service_whatsapp .ya-share2__mobile-popup-badge {
+box-shadow: 0 3px 0 0 #398729, 0 4px 0 0 #346f29,  0 6px 3px -1px rgba(44, 136, 0, 0.75), 0 13px 6px -4px rgba(126, 203, 23, 0.58);
+}
+.ya-share2__item_service_telegram .ya-share2__badge, .ya-share2__item_service_telegram .ya-share2__mobile-popup-badge {
+box-shadow: 0 3px 0 0 #3f79a4, 0 4px 0 0 #2c6793, 0 6px 3px -1px rgba(0, 87, 137, 0.40), 0 13px 6px -4px rgba(4, 86, 133, 0.40);
+} */

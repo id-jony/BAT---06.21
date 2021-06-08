@@ -1,0 +1,43 @@
+.bg {
+  display: block;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: contain;
+  z-index: 1;
+}
+
+.r-t {
+background-image: url(../img/bg/bg-r-t.png);
+width: 530px;
+height: 586px;
+top: 64px;
+right: 1px;
+background-position: right;
+}
+
+.l-t {
+background-image: url(../img/bg/bg-l-t.png);
+width: 165px;
+height: 586px;
+top: 64px;
+left: 0;
+background-position: left;
+}
+
+.l-b {
+background-image: url(../img/bg/bg-l-b.png);
+width: 424px;
+height: 393px;
+top: 64px;
+left: 1px;
+background-position: left;
+}
+
+.r-b {
+background-image: url(../img/bg/bg-r-b.png);
+width: 306px;
+height: 393px;
+bottom: 0px;
+left: 1px;
+background-position: left;
+}

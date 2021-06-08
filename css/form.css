@@ -1,0 +1,26 @@
+.form-control {
+  font-weight: 500;
+  font-size: 16px;
+  color: #6F6F6F;
+  text-align: center;
+  line-height: 16px;
+  background: #EBE6EE;
+  border-radius: 8px;
+  height: 56px;
+  border: 0;
+  transition: .3s;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #f4f0f6;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem #dfd9e3;
+  transition: .3s;
+}
+
+.form-check-input:checked  {
+  color: #fff;
+  border-color: #7B1FA2 !important;
+  background-color: #7B1FA2;
+}
