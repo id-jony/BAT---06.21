@@ -1,19 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="27px" height="28px" viewBox="0 0 25 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <defs>
-        <linearGradient x1="66.6708333%" y1="16.67%" x2="41.6708333%" y2="75%" id="linearGradient-1">
-            <stop stop-color="#37AEE2" offset="0%"></stop>
-            <stop stop-color="#1E96C8" offset="100%"></stop>
-        </linearGradient>
-    </defs>
-    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="header" transform="translate(-282.000000, -20.000000)" fill-rule="nonzero">
-            <g id="{row}" transform="translate(12.500000, 20.000000)">
-                <g id="Telegram" transform="translate(269.625000, 0.000000)">
-                    <path d="M12,24 C18.6274,24 24,18.6274 24,12 C24,5.3726 18.6274,0 12,0 C5.3726,0 0,5.3726 0,12 C0,18.6274 5.3726,24 12,24 Z" id="Shape" fill="url(#linearGradient-1)"></path>
-                    <path d="M4.46911,12.587 C5.8719,11.8143 7.4378,11.1694 8.9009,10.5212 C11.418,9.4595 13.9451,8.4162 16.4977,7.4449 C16.99435,7.2794 17.8867,7.11755 17.9742,7.85355 C17.9263,8.89535 17.7292,9.93105 17.594,10.96675 C17.25085,13.24435 16.85425,15.51415 16.4675,17.78425 C16.33425,18.5404 15.387,18.93185 14.7809,18.44795 C13.3243,17.46405 11.8565,16.48975 10.4185,15.48305 C9.94745,15.0044 10.38425,14.31705 10.80495,13.97525 C12.00465,12.79295 13.27695,11.78845 14.41395,10.54505 C14.72065,9.8044 13.81445,10.4286 13.51555,10.61985 C11.87315,11.75165 10.27095,12.95255 8.53935,13.94725 C7.65485,14.43415 6.62395,14.01805 5.73985,13.74635 C4.94714,13.41815 3.78553,13.0875 4.46903,12.58705 L4.46911,12.587 Z" id="Shape" fill="#fff"></path>
-                </g>
-            </g>
-        </g>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#Shape_2_);}
+	.st1{fill:#FFFFFF;}
+</style>
+<g id="Symbols">
+	<g id="header" transform="translate(-282.000000, -20.000000)">
+		<g id="_x7B_row_x7D_" transform="translate(12.500000, 20.000000)">
+			<g id="Telegram" transform="translate(269.625000, 0.000000)">
+				
+					<linearGradient id="Shape_2_" gradientUnits="userSpaceOnUse" x1="-644.1635" y1="382.5805" x2="-644.395" y2="382.0404" gradientTransform="matrix(25.92 0 0 -25.92 16712.1113 9920.2803)">
+					<stop  offset="0" style="stop-color:#37AEE2"/>
+					<stop  offset="1" style="stop-color:#1E96C8"/>
+				</linearGradient>
+				<path id="Shape" class="st0" d="M11.9,24c6.6,0,12-5.4,12-12s-5.4-12-12-12s-12,5.4-12,12S5.2,24,11.9,24z"/>
+				<path id="Shape_1_" class="st1" d="M4.3,12.6c1.4-0.8,3-1.4,4.4-2.1c2.5-1.1,5-2.1,7.6-3.1c0.5-0.2,1.4-0.3,1.5,0.4
+					c0,1-0.2,2.1-0.4,3.1c-0.3,2.3-0.7,4.5-1.1,6.8c-0.1,0.8-1.1,1.1-1.7,0.7c-1.5-1-2.9-2-4.4-3c-0.5-0.5,0-1.2,0.4-1.5
+					c1.2-1.2,2.5-2.2,3.6-3.4c0.3-0.7-0.6-0.1-0.9,0.1c-1.6,1.1-3.2,2.3-5,3.3c-0.9,0.5-1.9,0.1-2.8-0.2C4.8,13.4,3.7,13.1,4.3,12.6
+					L4.3,12.6z"/>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>
