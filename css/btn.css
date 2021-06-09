@@ -34,8 +34,6 @@
   box-shadow: 0 0 0 0.2rem rgba(153, 0, 64, 0.34);
 }
 
-
-
 .btn-major {
   background-image: linear-gradient(180deg, #FFD047 2%, #FEBD00 100%);
   border: 1px solid #FFD14A;
@@ -56,35 +54,32 @@
 
 .btn-major:hover {
   background-image: linear-gradient(180deg, #FFD047 2%, #FEBD00 100%);
-  box-shadow: 0 1px 0 0 #BC8F0C, 0 4px 1px -2px #664E08, 0 6px 6px -4px rgba(102,78,8,0.37), 0 8px 6px -6px rgba(102,78,8,0.37);
+  box-shadow: 0 1px 0 0 #BC8F0C, 0 4px 1px -2px #664E08, 0 6px 6px -4px rgba(102, 78, 8, 0.37), 0 8px 6px -6px rgba(102, 78, 8, 0.37);
   transform: translate(0, 3px);
   transition: .2s;
 }
 
 .btn-major:focus {
   background-image: linear-gradient(180deg, #FFD047 2%, #FEBD00 100%);
-  box-shadow: 0 1px 0 0 #BC8F0C, 0 4px 1px -2px #664E08, 0 6px 6px -4px rgba(102,78,8,0.37), 0 8px 6px -6px rgba(102,78,8,0.37);
+  box-shadow: 0 1px 0 0 #BC8F0C, 0 4px 1px -2px #664E08, 0 6px 6px -4px rgba(102, 78, 8, 0.37), 0 8px 6px -6px rgba(102, 78, 8, 0.37);
   transition: .2s;
 }
 
 .btn-major:active {
   color: #513F0C;
   background-image: linear-gradient(180deg, #FFD047 2%, #FEBD00 100%);
-  box-shadow: 0 1px 0 0 #BC8F0C, 0 4px 1px -2px #664E08, 0 6px 6px -4px rgba(102,78,8,0.37), 0 8px 6px -6px rgba(102,78,8,0.37);
+  box-shadow: 0 1px 0 0 #BC8F0C, 0 4px 1px -2px #664E08, 0 6px 6px -4px rgba(102, 78, 8, 0.37), 0 8px 6px -6px rgba(102, 78, 8, 0.37);
   transition: .2s;
 }
 
-
-
-
 .btn-minor {
+  background: #0350A0;
+  1066C0 border-radius: 4px;
   font-weight: 700;
   font-size: 16px;
   color: #FFFFFF;
   text-transform: uppercase;
   line-height: 20px;
-  background-image: linear-gradient(180deg, #DF005E 0%, #990040 100%);
-  border-radius: 4px;
   border: none;
   padding: 16px 0;
   display: block;
@@ -94,22 +89,19 @@
 
 .btn-minor:hover {
   color: #FFF;
-  background-image: linear-gradient(180deg, #ed1e75 0%, #a60548 100%);
+  background: #1066C0;
   transition: .1s;
 }
 
 .btn-minor:focus {
-  background-image: linear-gradient(180deg, #ed1e75 0%, #a60548 100%);
+  background: #1066C0;
 }
 
 .btn-minor:active {
   color: #FFF;
-  background-image: linear-gradient(180deg, #ed1e75 0%, #a60548 100%);
+  background: #1066C0;
   box-shadow: none;
 }
-
-
-
 
 .btn-white {
   font-weight: 700;
