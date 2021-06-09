@@ -7,16 +7,6 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
 }
 
-.rule {
-  background-image: url(../img/crystal_bg.jpg);
-  background-position: top;
-  background-size: contain;
-  clip-path: polygon(0 24px, 100% 0, 100% 100%, 0% 100%);
-  padding: 32px 0;
-  z-index: 5;
-  width: 100%;
-}
-
 .index h2 {
   font-weight: 500;
   font-size: 24px;
@@ -26,8 +16,13 @@ body {
 }
 
 #content {
-    z-index: 2;
+  z-index: 2;
+  padding-top: 56px;
   }
+
+.title {
+  margin-bottom: 56px;
+}
 
 /* REVIEW: SMS custom style  */
 
@@ -72,6 +67,23 @@ body {
   color: #6800A3;
   text-align: center;
   line-height: 28px;
+}
+
+/* REVIEW: QUIZ CUSTOM STYLE  */
+
+.quiz .form-group  {
+  border-bottom: 1px solid rgba(255,255,255,0.30);
+  margin-top: 0;
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+}
+
+.quiz label {
+  margin-bottom: 24px;
+}
+
+.quiz .form-check-label {
+  margin-bottom: 0;
 }
 
 /* REVIEW: GAME CUSTOM STYLE  */

@@ -35,19 +35,60 @@
     </header>
   <!-- Конец Шапки -->
 
-  <section id="content" class="content wrapper flex-grow-1 d-flex align-items-center">
+  <section id="content" class="quiz content wrapper flex-grow-1 d-flex align-items-center">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 col-lg-6">
 
           <div class="title">
-            <h1 class="white-bg">Введи код</h1>
-            <h6 class="white-bg">Введи ниже уникальный код,</br>найденный в пачке.</h6>
+          <h1 class="white-bg">Первым делом самолёты</h1>
+          <h6 class="white-bg">Прежде чем ввести коды, пожалуйста, ответь на пару вопросов.</h6>
           </div>
 
-          <form class="mt-5">
+          <form action="" method="POST" id="gamecode-form">
+
             <div class="form-group text-center">
-              <label>Найденый код</label>
+              <label>Понравились ли вам сигареты <br> KENT Superslims?</label>
+              <div class="w100"></div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="01_quest" id="01_quest" value="option1">
+                <label class="form-check-label" for="01_quest">Да</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="01_quest" id="01_quest" value="option2">
+                <label class="form-check-label" for="01_quest">Нет</label>
+              </div>
+            </div>
+
+            <div class="form-group text-center">
+              <label>Понравился ли вам вкус <br> капсулы KENT Superslims?</label>
+              <div class="w100"></div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="02_quest" id="02_quest" value="option1">
+                <label class="form-check-label" for="01_quest">Да</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="02_quest" id="02_quest" value="option2">
+                <label class="form-check-label" for="02_quest">Нет</label>
+              </div>
+            </div>
+
+            <div class="form-group text-center">
+              <label>Порекомендуете ли вы KENT Superslims <br>своим знакомым 21+?</label>
+              <div class="w100"></div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="03_quest" id="03_quest" value="option1">
+                <label class="form-check-label" for="03_quest">Да</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="03_quest" id="03_quest" value="option2">
+                <label class="form-check-label" for="03_quest">Нет</label>
+              </div>
+            </div>
+
+            <h6 class="white-bg">Введи ниже уникальный код, <br> найденный в пачке.</h6>
+
+            <div class="text-center mt-3">
               <input id="code" type="text" class="form-control text-center" placeholder="XXXXXXXX">
             </div>
             <a href="#" class="btn btn-major mt-4" data-toggle="modal" data-target="#error">Зарегистрировать код</a>
@@ -89,7 +130,7 @@
         <div class="modal-body">
         </div>
         <div class="modal-footer">
-          <a href="#" class="btn btn-major" data-dismiss="modal" data-toggle="modal" data-target="#success">Назад</a>
+          <a href="#" class="btn btn-minor mini" data-dismiss="modal" data-toggle="modal" data-target="#success">Назад</a>
         </div>
       </div>
     </div>
@@ -106,8 +147,8 @@
 
         </div>
         <div class="modal-footer">
-          <a href="comment.html" class="btn btn-minor">Оставить отзыв</a>
-          <a href="account.html" class="btn btn-major mt-2 mini">Ввести еще код</a>
+          <a href="" class="btn btn-major mt-2 ">Ввести еще код</a>
+          <a href="account.html" class="btn btn-minor mini mt-3">На главную</a>
         </div>
       </div>
     </div>
