@@ -130,33 +130,35 @@
   box-shadow: none;
 }
 
-.btn-blue {
+.btn-red {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 14px;
   color: #FFFFFF;
   text-transform: uppercase;
   line-height: 20px;
-  background: #006BFF;
+  background: #E62525;
   border-radius: 4px;
-  padding: 16px 0;
+  padding: 8px 0;
   display: block;
   transition: .1s;
   text-decoration: none;
+  margin-top: 40px;
+  width: 100%;
 }
 
-.btn-blue:hover {
+.btn-red:hover {
   color: #FFF;
-  background: #1d7cff;
+  background: #A92020;
   transition: .1s;
 }
 
-.btn-blue:focus {
-  background: #1670ec;
+.btn-red:focus {
+  background: #A92020;
   box-shadow: none;
 }
 
-.btn-blue:active {
+.btn-red:active {
   color: #FFFFFF;
-  background: #006BFF;
+  background: #A92020;
   box-shadow: none;
 }

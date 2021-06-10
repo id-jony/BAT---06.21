@@ -35,30 +35,46 @@ body {
 }
 
 /* REVIEW: PROFILE CUSTOM STYLE  */
+
+.line {
+  border-right: 1px solid #034692;
+}
+
 .ac_info {
-  background-image: linear-gradient(180deg, #DF005E 4%, #990040 100%);
+  background: #09204C;
+  border: 1px solid #034692;
   border-radius: 8px;
   padding: 16px;
   width: 100%;
   margin-top: 24px;
   margin-bottom: -16px;
+
+
 }
 
 .ac_info .num {
-  font-weight: 300;
-  font-size: 40px;
+  font-weight: 500;
+  font-size: 32px;
   line-height: 40px;
-  color: #FFFFFF;
+color: #FEBD00;
   text-align: center;
-  margin-bottom: 8px;
+  margin-bottom: 2px;
+
 }
 
 .ac_info span {
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: 700;
+  font-size: 14px;
   color: #FFFFFF;
   text-align: center;
   line-height: 16px;
+
+
+}
+
+.line_btwn {
+  height: 60px;
+  border: 1px solid #03448F;
 }
 
 .index h2 {
@@ -69,6 +85,56 @@ body {
   line-height: 28px;
 }
 
+.profile_block {
+  font-weight: 700;
+font-size: 12px;
+color: #51400C;
+line-height: 20px;
+
+
+}
+
+.profile .game-stat {
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 30px;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(10px);
+}
+
+.profile .game-stat .info {
+  font-weight: 700;
+  font-size: 12px;
+  color: #51400C;
+  line-height: 20px;
+  background: #FEBD00;
+  border-radius: 20px;
+  padding: 4px;
+  width: 110px;
+  text-align: center;
+  margin: -30px auto 0;
+  text-transform: uppercase;
+}
+
+.profile .game-stat h5{
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 24px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+
+}
+
+.profile .game-stat span{
+  font-weight: 500;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 18px;
+}
 /* REVIEW: QUIZ CUSTOM STYLE  */
 
 .quiz .form-group  {
@@ -253,6 +319,9 @@ body {
   text-decoration: none;
   float: left;
   transition: .3s;
+  max-height: 189px;
+height: 100%;
+
 }
 
 .hovers:hover {
@@ -265,11 +334,13 @@ body {
 .cards p {
   font-weight: 900 !important;
   font-size: 16px !important;
-  color: #512280 !important;
+  color: #0F2B63 !important;
   text-align: center;
-  line-height: 20px;
+  line-height: 18px;
   text-transform: uppercase;
   text-decoration: none;
+
+
 }
 
 .cards img {
@@ -286,6 +357,7 @@ body {
   text-transform: none;
   line-height: 14px;
   margin-top: 4px;
+
 }
 
 .carusel_banner {
