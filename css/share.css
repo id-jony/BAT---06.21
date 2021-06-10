@@ -1,5 +1,81 @@
 /* REVIEW: SHARE custom style  */
 
+.share_img {
+  background-image: url(../img/share_img.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+  width: 100%;
+  z-index: 10;
+  height: 350px;
+}
+
+.rule p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #DCBAF0;
+  text-align: center;
+  line-height: 19px;
+  margin-top: 16px;
+  padding: 0 16px;
+}
+
+.rule .small {
+  font-size: 14px;
+  font-style: italic;
+  color: #fff;
+  text-align: center;
+  line-height: 19px;
+  width: 100%;
+}
+
+.rule_lg p {
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+  line-height: 19px;
+  margin-top: 16px;
+  text-align: left;
+}
+
+.rule_lg .small {
+  font-weight: 500;
+  font-size: 14px;
+  color: #DCBAF0;
+  font-style: italic;
+  line-height: 19px;
+  margin-top: 16px;
+  text-align: left;
+}
+
+
+/* Social style  */
+.ya-share2__container_size_m .ya-share2__badge .ya-share2__icon {
+  height: 48px !important;
+  width: 48px !important;
+  background-size: 48px 48px !important;
+}
+
+.ya-share2__list.ya-share2__list_direction_horizontal>.ya-share2__item {
+  margin: 2px 10px 0 0 !important;
+}
+
+/* Social Style button 3d  */
+.ya-share2__item_service_vkontakte .ya-share2__badge, .ya-share2__item_service_vkontakte .ya-share2__mobile-popup-badge {
+box-shadow: 0 3px 0 0 #21548e, 0 4px 0 0 #234a75, 0 5px 2px -1px #052952, 0 6px 3px -1px rgba(0, 87, 137, 0.40), 0 13px 6px -4px rgba(4, 86, 133, 0.40);
+}
+.ya-share2__item_service_facebook .ya-share2__badge, .ya-share2__item_service_facebook .ya-share2__mobile-popup-badge {
+box-shadow: 0 3px 0 0 #153e6b, 0 4px 0 0 #183657, 0 5px 2px -1px #052952, 0 6px 3px -1px rgba(0, 87, 137, 0.40), 0 13px 6px -4px rgba(4, 86, 133, 0.40);
+}
+.ya-share2__item_service_odnoklassniki .ya-share2__badge, .ya-share2__item_service_odnoklassniki .ya-share2__mobile-popup-badge {
+box-shadow: 0 3px 0 0 #a7501f, 0 4px 0 0 #954315,  0 6px 3px -1px rgba(136, 89, 0, 0.75), 0 13px 6px -4px rgba(203, 112, 23, 0.58);
+}
+.ya-share2__item_service_whatsapp .ya-share2__badge, .ya-share2__item_service_whatsapp .ya-share2__mobile-popup-badge {
+box-shadow: 0 3px 0 0 #398729, 0 4px 0 0 #346f29,  0 6px 3px -1px rgba(44, 136, 0, 0.75), 0 13px 6px -4px rgba(126, 203, 23, 0.58);
+}
+.ya-share2__item_service_telegram .ya-share2__badge, .ya-share2__item_service_telegram .ya-share2__mobile-popup-badge {
+box-shadow: 0 3px 0 0 #3f79a4, 0 4px 0 0 #2c6793, 0 6px 3px -1px rgba(0, 87, 137, 0.40), 0 13px 6px -4px rgba(4, 86, 133, 0.40);
+}
 
 
 

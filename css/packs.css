@@ -1,9 +1,111 @@
 /* REVIEW: PACKS custom style  */
 
-.text_link {
-  color: #fff;
+.cat h6 {
+  font-weight: 700;
+  font-size: 14px;
+  color: #000;
+  letter-spacing: 0;
+  text-align: center;
+  margin-bottom: 4px;
 }
 
-.text_link:hover {
-  color: #fff;
+.cat h1 {
+  font-weight: 900;
+  font-size: 19px;
+  color: #6800A3;
+  text-align: center;
+  line-height: 24px;
+  margin-top: -5px;
+  text-transform: uppercase;
+}
+
+.cat h2 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #6800A3;
+  text-align: center;
+  line-height: 28px;
+  margin: 0;
+}
+
+.cat h3 {
+  font-weight: 500;
+  font-size: 18px;
+  color: #000000;
+  text-align: center;
+  line-height: 21px;
+  margin: 0;
+  text-transform: none;
+  padding-bottom: 32px;
+}
+
+.carousel {
+  margin-top: 30px !important;
+}
+
+.owl-dots {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.owl-dots .owl-dot span {
+  width: 8px;
+  height: 8px;
+  margin: 5px;
+  background: #93D3FF;
+  display: block;
+  transition: opacity 200ms ease;
+  border-radius: 30px;
+}
+
+.owl-dots .owl-dot.active span, .owl-dots .owl-dot:hover span {
+  background: #022F6E;
+}
+
+.pack {
+  height: 295px;
+  margin: 0 auto;
+  display: block;
+}
+
+.packn {
+  height: 279px;
+  margin: 0 auto;
+  display: block;
+}
+
+.owl-item:not(.center) {
+  opacity: 0;
+  transition: .5s;
+}
+
+.owl-item {
+  opacity: 1;
+  transition: .5s;
+}
+
+.item {
+  width: 350px;
+}
+
+.item img {
+  margin-left: -5px;
+}
+
+.item p {
+  font-weight: 900;
+  font-size: 14px;
+  color: #212121;
+  text-align: center;
+  line-height: 18px;
+}
+
+.item span {
+  font-weight: 700;
+  font-size: 12px;
+  color: #212121;
+  text-align: center;
+  line-height: 18px;
+  justify-content: center !important;
+  display: flex;
 }
