@@ -1,0 +1,16 @@
+/* REVIEW: QUIZ CUSTOM STYLE  */
+
+.quiz .form-group  {
+  border-bottom: 1px solid rgba(255,255,255,0.30);
+  margin-top: 0;
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+}
+
+.quiz label {
+  margin-bottom: 24px;
+}
+
+.quiz .form-check-label {
+  margin-bottom: 0;
+}

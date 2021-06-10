@@ -2,11 +2,6 @@ body {
   background: #0350A0;
 }
 
-.polygon {
-  background: #6720A3;
-  clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
-}
-
 .index h2 {
   font-weight: 500;
   font-size: 24px;
@@ -69,30 +64,9 @@ body {
   line-height: 28px;
 }
 
-/* REVIEW: QUIZ CUSTOM STYLE  */
-
-.quiz .form-group  {
-  border-bottom: 1px solid rgba(255,255,255,0.30);
-  margin-top: 0;
-  margin-bottom: 24px;
-  padding-bottom: 24px;
-}
-
-.quiz label {
-  margin-bottom: 24px;
-}
-
-.quiz .form-check-label {
-  margin-bottom: 0;
-}
-
 /* REVIEW: GAME CUSTOM STYLE  */
 .game {
   background: #6720A3;
-}
-
-.exchange {
-  background-image: linear-gradient(180deg, #D23A5D -20%, #6720A3 15%) !important;
 }
 
 .game img {
@@ -123,6 +97,13 @@ body {
 }
 
 /* REVIEW: ACCOUNT CUSTOM STYLE  */
+.acbg {
+  position: absolute;
+  background: #f5f5f5;
+  width: 100%;
+  height: 450px;
+  z-index: 1;
+}
 
 .account_img {
   background-image: url(../img/banner_img.png);
@@ -134,11 +115,6 @@ body {
   margin: 0 -15px;
   margin-bottom: -60px;
 }
-
-#content .account {
-    background: #f5f5f5;
-    z-index: 999;
-  }
 
 .account .item {
     width: 100%;
@@ -166,17 +142,23 @@ body {
 }
 
 .banner {
-  background-color: #6720A3;
   border-radius: 8px;
-  padding: 24px;
-  background-image: url(../img/banner_img.png);
-  background-size: 85%;
-  background-position-x: 150px;
-  background-position-y: 50px;
+  padding: 24px 0 0  24px;
+  background-image: linear-gradient(196deg, #FFCE41 0%, #E87E40 35%, #D53A3F 48%, #0350A0 100%);
   background-repeat: no-repeat;
   box-shadow: 0 20px 24px -8px rgb(18, 0, 29, .6);
   z-index: 6;
-  margin-top: 50px;
+}
+
+.banner .image {
+  background-image: url(../img/banner_img.png);
+  background-repeat: no-repeat;
+  background-size: 320px;
+  background-position-x: 120px;
+  background-position-y: 10px;
+  ba
+  width: 100%;
+  padding-bottom: 24px;
 }
 
 .banner a {
@@ -205,19 +187,24 @@ body {
 }
 
 .btn_bonus {
-  background-image: radial-gradient(50% 50%, #B6CE1A 43%, #4FAF48 100%);
+  background-image: radial-gradient(30% 70%, #B6CE1A 43%, #4FAF48 100%);
+  background-color: #4FAF48;
+  background-position-x: -150px;
+  background-repeat: no-repeat;
   box-shadow: 0 15px 12px -9px rgba(41,131,34,0.37);
   border-radius: 8px;
   padding: 32px 24px 24px 24px;
   font-weight: 700;
-  font-size: 24px;
-  color: #FFF;
+  font-size: 21px;
+  text-transform: uppercase;
+  color: #fff;
   text-align: left;
   line-height: 26px;
   text-decoration: none;
   float: left;
   transition: .3s;
-  width: 100%;
+
+  margin-top: 24px;
 }
 
 .btn_bonus span {
@@ -227,14 +214,20 @@ body {
   text-align: left;
   line-height: 16px;
   text-decoration: none;
+  text-transform: none;
   width: 100%;
   float: left;
-  margin-top: 16px;
+  margin-top: 8px;
   transition: .3s;
 }
 
 .btn_bonus:hover {
   color: #FFF;
+  transition: .3s;
+}
+
+.hovers:hover {
+  transform: scale(1.03);
   transition: .3s;
 }
 
@@ -253,13 +246,7 @@ body {
   text-decoration: none;
   float: left;
   transition: .3s;
-}
-
-.hovers:hover {
-  transform: scale(1.05);
-  transition: .3s;
-  box-shadow: 0 8px 16px -4px #3B005C, 0 -8px 16px -4px #A455D1;
-  background-position: 51% 10%;
+  margin-top: 30px;
 }
 
 .cards p {
@@ -267,15 +254,15 @@ body {
   font-size: 16px !important;
   color: #512280 !important;
   text-align: center;
-  line-height: 20px;
+  line-height: 16px;
   text-transform: uppercase;
   text-decoration: none;
+  margin-bottom: 6px;
 }
 
 .cards img {
-  height: 70px;
-  margin-bottom: 8px;
-  margin: 0 auto;
+  height: 64px;
+  margin-bottom: 16px;
 }
 
 .cards span {
@@ -285,7 +272,7 @@ body {
   text-align: center;
   text-transform: none;
   line-height: 14px;
-  margin-top: 4px;
+
 }
 
 .carusel_banner {
@@ -444,7 +431,7 @@ body {
 }
 
 .carousel {
-  margin-top: 30px;
+  margin-top: 30px !important;
 }
 
 .owl-dots {

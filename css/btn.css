@@ -106,7 +106,7 @@
 .btn-white {
   font-weight: 700;
   font-size: 13px;
-  color: #6800A3;
+  color: #0F2B63;
   text-transform: uppercase;
   line-height: normal;
   background: #fff;
@@ -118,13 +118,13 @@
 }
 
 .btn-white:hover {
-  color: #6800A3;
+  color: #0F2B63;
   transition: .3s;
   background: #e6d5f0;
 }
 
 .btn-white:focus {
-  color: #6800A3;
+  color: #0F2B63;
   transition: .3s;
   background: #f9f0ff;
   box-shadow: none;
