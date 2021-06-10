@@ -33,3 +33,47 @@
   text-align: center;
   line-height: 28px;
 }
+
+
+
+
+.profile .game-stat {
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  padding: 16px;
+  backdrop-filter: blur(10px);
+  background: rgba(255,255,255,0.1);
+  margin-top: 30px;
+}
+
+.profile .game-stat .info {
+  font-weight: 700;
+  font-size: 12px;
+  color: #51400C;
+  line-height: 12px;
+  background: #FEBD00;
+  border-radius: 20px;
+  padding: 8px 20px;
+  width: 110px;
+  text-align: center;
+  margin: -32px auto 0;
+  text-transform: uppercase;
+}
+
+.profile .game-stat h5 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 24px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.profile .game-stat span {
+  font-weight: 500;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 18px;
+}
