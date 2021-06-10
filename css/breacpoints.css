@@ -11,27 +11,6 @@
     height: 300px;
   }
 
-  .banner h1 {
-    font-weight: 900;
-    font-size: 21px;
-    color: #fff;
-    letter-spacing: 0.35px;
-    line-height: 25px;
-    text-align: left;
-    text-transform: uppercase;
-    margin: 0;
-  }
-
-  .banner h2 {
-    font-weight: 700;
-    font-size: 12px;
-    color: #fff;
-    line-height: 17px;
-    text-align: left;
-    text-transform: uppercase;
-    margin: 16px 0;
-  }
-
   .share_img {
     background-image: url(../img/share_img.jpg);
     background-repeat: no-repeat;
@@ -40,35 +19,6 @@
     width: 100%;
     margin-top: -40px;
     z-index: 10;
-  }
-
-  .carousel h5 {
-    font-weight: 900;
-    font-size: 18px;
-    color: #FFFFFF;
-    line-height: 22px;
-    text-shadow: 0 1px 1px #561762;
-    text-align: left;
-    margin: 8px;
-    width: 100px;
-  }
-
-  .carousel h6 {
-    font-weight: 500;
-    font-size: 12px;
-    color: #FFFFFF;
-    line-height: 16px;
-    text-align: left;
-    margin: 8px;
-    width: 100px;
-  }
-
-}
-
-@media screen and (min-width: 576px) {
-
-  .acbg {
-    background: none;
   }
 
 }

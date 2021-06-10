@@ -1,0 +1,35 @@
+/* REVIEW: PROFILE CUSTOM STYLE  */
+
+.ac_info {
+  background-image: linear-gradient(180deg, #DF005E 4%, #990040 100%);
+  border-radius: 8px;
+  padding: 16px;
+  width: 100%;
+  margin-top: 24px;
+  margin-bottom: -16px;
+}
+
+.ac_info .num {
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 40px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.ac_info span {
+  font-weight: 500;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 16px;
+}
+
+.index h2 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #6800A3;
+  text-align: center;
+  line-height: 28px;
+}
