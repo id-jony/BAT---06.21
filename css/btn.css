@@ -160,3 +160,36 @@
   background: #006BFF;
   box-shadow: none;
 }
+
+.btn-red {
+  font-weight: 700;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  line-height: 20px;
+  background: #E62525;
+  border-radius: 4px;
+  padding: 8px 0;
+  display: block;
+  transition: .1s;
+  text-decoration: none;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.btn-red:hover {
+  color: #FFF;
+  background: #A92020;
+  transition: .1s;
+}
+
+.btn-red:focus {
+  background: #A92020;
+  box-shadow: none;
+}
+
+.btn-red:active {
+  color: #FFFFFF;
+  background: #A92020;
+  box-shadow: none;
+}
