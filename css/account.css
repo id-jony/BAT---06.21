@@ -276,7 +276,7 @@
 /* REVIEW: ACCOUNT SCREEN LARGE STYLE  */
 @media screen and (min-width: 576px) {
   .acbg {
-    background: none;
+    display: none;
   }
 
   .btn_bonus {

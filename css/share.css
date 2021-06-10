@@ -1,12 +1,9 @@
+/* REVIEW: SHARE custom style  */
+
+
+
+
 @media screen and (max-width: 576px) {
-  .game {
-    background-image: linear-gradient(180deg, #D23A5D -20%, #6720A3 15%);
-  }
-
-  .game_img {
-    height: 350px;
-  }
-
   .share_img {
     height: 300px;
   }
