@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="245px" height="58px" viewBox="0 0 245 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Rectangle</title>
+    <g id="site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.6" stroke-opacity="0.160051252">
+        <g id="03-account-&gt;-game-&gt;-info" transform="translate(-74.000000, -1397.000000)" fill="#0D0D0D" stroke="#FFFFFF">
+            <g id="Group-5" transform="translate(17.000000, 1398.000000)">
+                <g id="Group-2" transform="translate(57.500000, 0.000000)">
+                    <path d="M24.9346526,0 L220.604043,0 C228.355601,2.12877546e-15 234.992232,5.55650174 236.354884,13.1873498 L244,56 L244,56 L0,56 L9.28981402,12.6475346 C10.8706281,5.27040205 17.3900481,8.49134873e-15 24.9346526,0 Z" id="Rectangle"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

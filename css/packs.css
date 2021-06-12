@@ -1,31 +1,41 @@
 /* REVIEW: PACKS custom style  */
 
+.cat .title {
+  margin-bottom: 24px;
+}
+
 .cat h6 {
   font-weight: 700;
-  font-size: 14px;
-  color: #000;
+  font-size: 16px;
+  color: #fff;
   letter-spacing: 0;
   text-align: center;
   margin-bottom: 4px;
+
 }
 
 .cat h1 {
-  font-weight: 900;
-  font-size: 19px;
-  color: #6800A3;
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
   text-align: center;
-  line-height: 24px;
+  line-height: 28px;
   margin-top: -5px;
-  text-transform: uppercase;
+
+
+
+
 }
 
 .cat h2 {
   font-weight: 700;
   font-size: 24px;
-  color: #6800A3;
+  color: #fff;
   text-align: center;
   line-height: 28px;
   margin: 0;
+
+
 }
 
 .cat h3 {
@@ -68,6 +78,15 @@
   display: block;
 }
 
+.borders {
+  border-top: 1px solid rgba(255,255,255,0.32);
+  width: calc(100% + 30px);
+  margin-left: -15px;
+  margin-bottom: 56px;
+
+
+}
+
 .packn {
   height: 279px;
   margin: 0 auto;
@@ -85,7 +104,7 @@
 }
 
 .item {
-  width: 350px;
+  width: 200px;
 }
 
 .item img {
@@ -93,19 +112,21 @@
 }
 
 .item p {
-  font-weight: 900;
-  font-size: 14px;
-  color: #212121;
+  font-weight: 700;
+  font-size: 13px;
+  color: #fff;
   text-align: center;
   line-height: 18px;
+
 }
 
 .item span {
   font-weight: 700;
   font-size: 12px;
-  color: #212121;
+  color: #fff;
   text-align: center;
   line-height: 18px;
   justify-content: center !important;
   display: flex;
+
 }

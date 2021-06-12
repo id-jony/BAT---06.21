@@ -1,43 +1,172 @@
 /* REVIEW: GAME CUSTOM STYLE  */
-.game {
-  background: #6720A3;
-}
-
-.game img {
-  width: 250px;
-  position: absolute;
-  z-index: 1037;
-  margin-top: -27px;
-  margin-left: calc(50vw - 150px);
-}
-
 .game_img {
-  background-image: url(../img/game_img.png);
+  background-image: url(../img/banner_img.png);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: top;
+  background-position-x: 20px;
   height: 450px;
   z-index: 9;
-  margin: 0 -15px;
+  margin: 0 -15px -70px;
 }
 
-.rule span {
-  font-weight: 500;
-  font-size: 16px;
-  color: #FFF;
-  margin-top: 16px;
+.game .home-icon {
+  width: 48px;
+  height: 48px;
+  margin: 0 auto 24px;
   display: block;
+}
+
+.game .rules {
+  width: 100%;
+}
+
+.game .rules .title {
+  background-image: url(../img/Rectangle.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 244px;
+  height: 56px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 24px;
+  margin: 64px auto 0;
+  padding-top: 16px;
+}
+
+.game .rules .content {
+  background: rgba(13, 13, 13, 0.60);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.game .rules .footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.30);
+  padding: 16px 16px 0 16px;
+  margin: 24px -24px 0 -24px;
+}
+
+.game .rules .footer p {
+  font-weight: 500;
+  font-style: italic;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.60);
   text-align: center;
 }
 
+.game .rules p {
+  font-weight: 500;
+  font-size: 15px;
+  color: #FFFFFF;
+  line-height: 20px;
+  text-align: left;
+}
+
+.game .rules .icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 24px;
+  width: 100%;
+  height: 58px;
+}
+
+.game .rules .rules-1 {
+  background-image: url(../img/icons/rules.svg);
+}
+
+.game .rules .rules-2 {
+  background-image: url(../img/icons/rules2.svg);
+}
+
+.game .rules .rules-3 {
+  background-image: url(../img/icons/rules3.svg);
+}
+
+.game p {
+  font-weight: 500;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 18px;
+}
+
+.game-btn {
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #030D21 100%);
+  position: fixed;
+  bottom: 0;
+  z-index: 999;
+  width: 100%;
+  padding: 48px 15px 32px;
+}
+
+.game .border {
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  height: 200px;
+  margin-top: 120px;
+  position: absolute;
+  width: calc(100% - 30px);
+}
+
+.game .border .title {
+  margin-top: -14px;
+}
+
+.game .border .title h1 {
+  display: inline;
+  background-color: #0350A0;
+  font-size: 21px;
+  box-shadow: -10px 0 0 #0350A0, 10px 0 0 #0350A0;
+}
+
+#rules label {
+  color: #000;
+  text-align: left;
+}
+
+.game .carousel {
+  top: 160px;
+  margin-bottom: 180px;
+}
+
+.game .item {
+  width: 113px;
+}
+
+.game .owl-item:not(.center) {
+  opacity: 1;
+  transition: .5s;
+}
 
 @media screen and (max-width: 576px) {
-  .game {
-    background-image: linear-gradient(180deg, #D23A5D -20%, #6720A3 15%);
-  }
-
   .game_img {
     height: 350px;
   }
+}
 
+@media screen and (min-width: 800px) {
+  .game .white-bg {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .game_img {
+    background-position: right;
+  }
+
+  .game .border {
+    margin-top: 80px;
+    width: calc(100% - 45px);
+  }
+
+  .game .carousel {
+    top: 120px;
+    margin-bottom: 100px;
+  }
+
+  .game .rules .footer {
+    margin: 0 -24px;
+  }
 }

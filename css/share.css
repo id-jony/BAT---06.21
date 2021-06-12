@@ -1,52 +1,87 @@
 /* REVIEW: SHARE custom style  */
 
+
 .share_img {
-  background-image: url(../img/share_img.jpg);
+  background-image: url(../img/banner_img.png);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: top;
-  width: 100%;
-  z-index: 10;
-  height: 350px;
+  background-position-x: 20px;
+  height: 450px;
+  z-index: 9;
+  margin: 0 -15px -70px;
 }
 
-.rule p {
-  font-weight: 500;
-  font-size: 16px;
-  color: #DCBAF0;
-  text-align: center;
-  line-height: 19px;
-  margin-top: 16px;
-  padding: 0 16px;
-}
-
-.rule .small {
-  font-size: 14px;
-  font-style: italic;
-  color: #fff;
-  text-align: center;
-  line-height: 19px;
+.share .rules {
   width: 100%;
 }
 
-.rule_lg p {
+.share .rules .title{
+background-image: url(../img/Rectangle.svg);
+background-repeat: no-repeat;
+background-position: center;
+width: 244px;
+height: 56px;
+font-weight: 700;
+font-size: 18px;
+color: #FFFFFF;
+text-align: center;
+line-height: 24px;
+margin: 64px auto 0;
+padding-top: 16px;
+}
+
+.share .rules .content{
+  background: rgba(13,13,13,0.60);
+  border: 1px solid rgba(255,255,255,0.16);
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.share .rules .footer {
+  border-top: 1px solid rgba(255,255,255,0.30);
+  padding: 16px 16px 0 16px;
+  margin: 24px -24px 0 -24px;
+}
+
+.share .rules .footer p{
+  font-weight: 500;
+  font-style: italic;
+  font-size: 14px;
+  color: rgba(255,255,255,0.60);
+  text-align: center;
+}
+
+.share .rules p{
   font-weight: 500;
   font-size: 14px;
-  color: #fff;
-  line-height: 19px;
-  margin-top: 16px;
+  color: #FFFFFF;
+  line-height: 20px;
   text-align: left;
 }
 
-.rule_lg .small {
-  font-weight: 500;
-  font-size: 14px;
-  color: #DCBAF0;
-  font-style: italic;
-  line-height: 19px;
-  margin-top: 16px;
-  text-align: left;
+.share .rules .icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 24px;
+  width: 100%;
+  height: 58px;
 }
+
+.share .rules .share-1{
+  background-image: url(../img/icons/share-1.svg);
+}
+
+.share .rules .share-2{
+  background-image: url(../img/icons/share-2.svg);
+}
+
+
+.share .border {
+  border: 1px solid #FFFFFF;
+  border-radius: 8px;
+  padding: 0 24px;
+}
+
 
 
 /* Social style  */
@@ -78,20 +113,36 @@ box-shadow: 0 3px 0 0 #3f79a4, 0 4px 0 0 #2c6793, 0 6px 3px -1px rgba(0, 87, 137
 }
 
 
+.share .rules .rules-1{
+  background-image: url(../img/icons/rules.svg);
+}
 
-@media screen and (max-width: 576px) {
-  .share_img {
-    height: 300px;
+.share .rules .rules-2{
+  background-image: url(../img/icons/rules2.svg);
+}
+
+@media screen and (min-width: 800px) {
+
+  .share h3 {
+    font-size: 28px;
+    line-height: 36px;
   }
 
   .share_img {
-    background-image: url(../img/share_img.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: top;
-    width: 100%;
-    margin-top: -40px;
-    z-index: 10;
+    background-position: right;
   }
 
+  .share .border {
+    margin-top: 80px;
+    width: calc(100% - 45px);
+  }
+
+  .share .carousel {
+    top: 120px;
+    margin-bottom: 100px;
+  }
+
+  .share .rules .footer {
+    margin: 0 -24px;
+  }
 }
